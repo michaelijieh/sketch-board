@@ -1,0 +1,9 @@
+body {
+    background-color: antiquewhite;
+}
+
+.board {
+    width: 320px;
+    height: 320px;
+    background-color: white;
+}
