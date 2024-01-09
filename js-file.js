@@ -1,5 +1,5 @@
-const board = document.querySelector('.board');
+const innerBoard = document.querySelector('.inner-board');
 
-board.addEventListener('mouseover', () => {
-    board.style.backgroundColor = "red";
+innerBoard.addEventListener('mouseover', () => {
+    innerBoard.style.backgroundColor = "green";
 })
