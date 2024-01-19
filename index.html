@@ -11,15 +11,41 @@
         
 
         <div class="board">
-            <div class="inner-board">
-                <div class="draw-board"></div>
-                <div class="controller-container">
-                    <div class="controller-left">C</div>
-                    <div class="controller-right">M</div>
-                </div>
+            <div>
+                <img class="logo" src="images/sb2.png" alt="logo of sketch board"/>
+            </div>
+            <div id="xaxa" class="draw-board">
             
             </div>
+            
         </div>
+        <div class="menu">
+            <div class="menu-header">
+                <p>Sketch board Menu</p>
+            </div>
+            <div class="select-grid-container">
+                <label class="sg-label" for="grid-size">Select Grid Size</label>
+                <select id="size" class="items">
+                    <option class="size-S" value="S">S</option>
+                    <option class="size-M" value="M" selected >M</option>
+                    <option class="size-L" value="L">L</option>
+                    <option class="size-XL" value="XL">XL</option>
+                </select>
+            </div>
+            <button class="button-bg-color">Black</button>
+            <button class="button-eraser">Eraser</button>
+            <button class="button-clear" style="color: red">Clear</button>
+        </div>
+
+
+        <!-- <div id="man-container">
+
+        </div> -->
+
+        <!-- <div class="box">
+            <div class="child1"></div>
+            <div class="child2"></div>
+        </div> -->
 
     </body>
 </html>
